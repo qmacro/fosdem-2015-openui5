@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta charset="UTF-8">
+
+		<title>FOSDEM Lightning Talks</title>
+
+		<script id="sap-ui-bootstrap"
+			type="text/javascript"
+			src="/ui5/latest/resources/sap-ui-core.js"
+			data-sap-ui-theme="sap_bluecrystal"
+			data-sap-ui-libs="sap.m"
+			data-sap-ui-xx-bindingSyntax="complex"
+			data-sap-ui-resourceroots='{
+				"namespace" : "./"
+			}'
+		>
+		</script>
+
+		<script id="main" type="ui5/xmlview">
+			<mvc:View
+				controllerName="local.controller.main"
+				displayBlock="true"
+				xmlns:mvc="sap.ui.core.mvc"
+				xmlns="sap.m">
+				<App id="app">
+					<pages>
+						<Page id="overview"
+							title="{i18n>overview}">
+							<content>
+								<SearchField
+									liveChange="onLiveChange" />
+								<List id="list"
+									mode="SingleSelectMaster"
+									selectionChange="onSelectionChange"
+									items="{
+										path : '/Talks'
+									}">
+									<items>
+										<StandardListItem
+											icon="sap-icon://person-placeholder"
+											title="{Title}"
+											description="{Speakers}" />
+									</items>
+								</List>
+							</content>
+							<footer>
+								<Bar>
+									<contentMiddle>
+										<Image
+											height="2em"
+											src="http://openui5.org/images/OpenUI5_new_big_side.png" />
+									</contentMiddle>
+								</Bar>
+							</footer>
+						</Page>
+						<Page id="detail"
+							showNavButton="true"
+							navButtonPress="onNavButtonPress"
+							title="{i18n>detail}">
+							<content>
+								<ObjectHeader
+									icon="sap-icon://person-placeholder"
+									title="{Title}"
+									intro="{Subtitle}"
+									number="{Start}"
+									numberUnit="{Day}">
+									<attributes>
+										<ObjectAttribute
+											title="{i18n>speakers}"
+											text="{Speakers}" />
+										</attributes>
+								</ObjectHeader>
+							</content>
+							<footer>
+								<Bar />
+							</footer>
+						</Page>
+					</pages>
+				</App>
+			</mvc:View>
+		</script>
+
+		<script>
+
+		sap.ui.controller("local.controller.main", {
+			onInit : function(oEvent) {
+				this.oApp = this.getView().byId("app");
+			},
+
+			onSelectionChange : function(oEvent) {
+				var oSelected = oEvent.getParameter("listItem"),
+					oTarget = this.oApp.getPages()[1];
+				oTarget.setBindingContext(oSelected.getBindingContext());
+				this.oApp.to(oTarget.getId());
+			},
+
+			onNavButtonPress : function(oEvent) {
+				this.oApp.back();
+			},
+
+			onLiveChange : function(oEvent) {
+				this.getView().byId("list")
+					.getBinding("items")
+					.filter([
+						new sap.ui.model.Filter({
+							path : "Title",
+							operator : "Contains",
+							value1 : oEvent.getParameter("newValue")
+						})
+					], sap.ui.model.FilterType.Application);
+
+				console.debug(oEvent.getParameters());
+			}
+
+		});
+
+		sap.ui.xmlview({ viewContent: jQuery("#main").html() })
+			.setModel(new sap.ui.model.resource.ResourceModel({
+				bundleUrl : "i18n/text.properties"
+			}), "i18n")
+			.setModel(new sap.ui.model.json.JSONModel("talks.json"))
+			.placeAt("content");
+
+		</script>
+	</head>
+
+	<body id="content"
+		class="sapUiBody" />
+	<script src="http://localhost:35729/livereload.js"></script>
+</html>
+<!-- Generated from the ui5-snippets package for Atom -->
+<!-- More info: https://atom.io/packages/ui5-snippets -->

@@ -1,0 +1,332 @@
+{
+	"Talks":[
+		{
+			"Title":"Lightning Talks Welcome",
+			"Subtitle":"",
+			"Speakers":"Tias Guns, Alasdair Kergon",
+			"Start":"12:55",
+			"End":"13:00",
+			"Day":"Saturday"
+		},
+		{
+			"Title":"Developing FOSDEM Companion",
+			"Subtitle":"How to build a nice, modern schedule app for Android",
+			"Speakers":"Christophe Beyls",
+			"Start":"13:00",
+			"End":"13:15",
+			"Day":"Saturday"
+		},
+		{
+			"Title":"Ultra - Smallest. Web server. Evar",
+			"Subtitle":"",
+			"Speakers":"Steven Goodwin",
+			"Start":"13:20",
+			"End":"13:15",
+			"Day":"Saturday"
+		},
+		{
+			"Title":"How adblockers work",
+			"Subtitle":"",
+			"Speakers":"Sebastian Noack",
+			"Start":"13:40",
+			"End":"13:55",
+			"Day":"Saturday"
+		},
+		{
+			"Title":"A Whirlwind Introduction to OpenUI5",
+			"Subtitle":"The Responsive, Enterprise Strength HTML5 Toolkit",
+			"Speakers":"DJ Adams",
+			"Start":"14:00",
+			"End":"14:15",
+			"Day":"Saturday"
+		},
+		{
+			"Title":"All about Hack in 15 minutes",
+			"Subtitle":"Why you should consider Hack over PHP",
+			"Speakers":"Tobias Nyholm",
+			"Start":"14:20",
+			"End":"14:35",
+			"Day":"Saturday"
+		},
+		{
+			"Title":"CockroachDB",
+			"Subtitle":"towards an Open-Source Spanner",
+			"Speakers":"Tobias Schottdorf",
+			"Start":"14:40",
+			"End":"14:55",
+			"Day":"Saturday"
+		},
+		{
+			"Title":"GCompris goes Qt Quick with the help of KDE",
+			"Subtitle":"GCompris is educational software for children 2 to 10",
+			"Speakers":"Bruno Coudoin",
+			"Start":"15:00",
+			"End":"15:15",
+			"Day":"Saturday"
+		},
+		{
+			"Title":"Requirements Bazaar",
+			"Subtitle":"How to encourage users to tell us what they really need!",
+			"Speakers":"István Koren",
+			"Start":"15:20",
+			"End":"15:35",
+			"Day":"Saturday"
+		},
+		{
+			"Title":"Scalable Video Conferencing with Jitsi Videobridge",
+			"Subtitle":"Using Simulcast, DataChannels and adaptive streaming for Free scalable conferencing",
+			"Speakers":"Emil Ivov",
+			"Start":"15:40",
+			"End":"15:55",
+			"Day":"Saturday"
+		},
+		{
+			"Title":"XMPP and Android",
+			"Subtitle":"Creating stable, reliable, push-enabled and battery friendly XMPP connections on Android",
+			"Speakers":"Florian Schmaus",
+			"Start":"16:00",
+			"End":"16:16",
+			"Day":"Saturday"
+		},
+		{
+			"Title":"Matrix.org - a new open standard for distributed, real-time communication",
+			"Subtitle":"Solving the fragmented online communication space with an open standard",
+			"Speakers":"Oddvar Lovaas, Matthew Hodgson",
+			"Start":"16:20",
+			"End":"16:35",
+			"Day":"Saturday"
+		},
+		{
+			"Title":"Yatta: A Real-Time Framework for Peer-to-peer Group Editing on Arbitrary Data Types",
+			"Subtitle":"Enabling real-time collaboration on the Web",
+			"Speakers":"Petru Nicolaescu, Kevin Jahns",
+			"Start":"16:40",
+			"End":"16:55",
+			"Day":"Saturday"
+		},
+		{
+			"Title":"Building an Open Source VoIP hardware phone",
+			"Subtitle":"",
+			"Speakers":"Saúl Ibarra Corretgé",
+			"Start":"17:00",
+			"End":"17:15",
+			"Day":"Saturday"
+		},
+		{
+			"Title":"codebender: Arduino programing, online",
+			"Subtitle":"Learn how to program an Arduino faster and easier, online, using codebender",
+			"Speakers":"Vasileios Georgitzikis",
+			"Start":"17:20",
+			"End":"17:35",
+			"Day":"Saturday"
+		},
+		{
+			"Title":"Rizzly: Event Driven Microcontroller Programming",
+			"Subtitle":"A new programming language for event driven programming of 8 bit microcontroller.",
+			"Speakers":"Urs Fässler",
+			"Start":"17:40",
+			"End":"17:45",
+			"Day":"Saturday"
+		},
+		{
+			"Title":"Crazyflie Nano Quadcopter",
+			"Subtitle":"A flying open source PCB",
+			"Speakers":"Frederic Gurr",
+			"Start":"18:00",
+			"End":"18:15",
+			"Day":"Saturday"
+		},
+		{
+			"Title":"LLVMLinux",
+			"Subtitle":"The advantages of using clang for the kernel",
+			"Speakers":"Behan Webster",
+			"Start":"18:20",
+			"End":"18:35",
+			"Day":"Saturday"
+		},
+		{
+			"Title":"Pretty-printing kernel data structures",
+			"Subtitle":"Reusing D-Trace technology in unexpected places",
+			"Speakers":"Daniel Lovasko",
+			"Start":"18:40",
+			"End":"18:55",
+			"Day":"Saturday"
+		},
+		{
+			"Title":"Validate your gerrit patches automaticly using magic hooks",
+			"Subtitle":"hook framework to test patches as part of gerrit system",
+			"Speakers":"Eyal Edri",
+			"Start":"10:00",
+			"End":"10:15",
+			"Day":"Sunday"
+		},
+		{
+			"Title":"LuaRocks - fostering an ecosystem of Lua modules",
+			"Subtitle":"Creating the package manager for the Lua language",
+			"Speakers":"Hisham Muhammad",
+			"Start":"10:20",
+			"End":"10:35",
+			"Day":"Sunday"
+		},
+		{
+			"Title":"How to create your own Exchange compatible backend",
+			"Subtitle":"Dive into the OpenChange REST API",
+			"Speakers":"Julien Kerihuel",
+			"Start":"10:40",
+			"End":"10:55",
+			"Day":"Sunday"
+		},
+		{
+			"Title":"JMAP",
+			"Subtitle":"A better way to interface with email",
+			"Speakers":"Bron Gondwana",
+			"Start":"11:00",
+			"End":"11:15",
+			"Day":"Sunday"
+		},
+		{
+			"Title":"Mail2Voice: an accessibility approach to mail",
+			"Subtitle":"",
+			"Speakers":"Matthieu Hazon",
+			"Start":"11:20",
+			"End":"11:35",
+			"Day":"Sunday"
+		},
+		{
+			"Title":"Agora Voting",
+			"Subtitle":"An end to end verifiable system",
+			"Speakers":"Eduardo Robles Elvira",
+			"Start":"11:40",
+			"End":"11:55",
+			"Day":"Sunday"
+		},
+		{
+			"Title":"Hacking ceof",
+			"Subtitle":"Enhancing the decentralised anonymous chat tool",
+			"Speakers":"Nico Schottelius",
+			"Start":"12:00",
+			"End":"12:15",
+			"Day":"Sunday"
+		},
+		{
+			"Title":"Improving Key Signing Parties",
+			"Subtitle":"Tools to make them easier, more secure, and much faster",
+			"Speakers":"Vadim Troshchinskiy",
+			"Start":"12:20",
+			"End":"12:35",
+			"Day":"Sunday"
+		},
+		{
+			"Title":"Cloud Computing: The Next Generation",
+			"Subtitle":"Federation of the Cloud",
+			"Speakers":"Björn Schießle",
+			"Start":"12:40",
+			"End":"12:55",
+			"Day":"Sunday"
+		},
+		{
+			"Title":"All your cycles are belong to us",
+			"Subtitle":"Volunteer computing in the age of the ubiquituous browser",
+			"Speakers":"Juan Julián Merelo",
+			"Start":"13:00",
+			"End":"13:15",
+			"Day":"Sunday"
+		},
+		{
+			"Title":"Datacenter Provisioning and Orchestration",
+			"Subtitle":"",
+			"Speakers":"Felix Aronsson",
+			"Start":"13:20",
+			"End":"13:35",
+			"Day":"Sunday"
+		},
+		{
+			"Title":"Fabricate your automated devops environment using python",
+			"Subtitle":"fabric is your (devops) friend",
+			"Speakers":"Eyal Edri",
+			"Start":"13:40",
+			"End":"13:55",
+			"Day":"Sunday"
+		},
+		{
+			"Title":"Upgrade-UX",
+			"Subtitle":"Upgrade-UX is a software framework to update or patch Unix systems",
+			"Speakers":"Gratien D'haese",
+			"Start":"14:00",
+			"End":"14:15",
+			"Day":"Sunday"
+		},
+		{
+			"Title":"Elvish",
+			"Subtitle":"an experimental Unix shell",
+			"Speakers":"Qi Xiao",
+			"Start":"14:20",
+			"End":"14:35",
+			"Day":"Sunday"
+		},
+		{
+			"Title":"SatNOGS - Global Network of Ground Stations",
+			"Subtitle":"Creating a full stack of destributed ground station management.",
+			"Speakers":"Pierros Papadeas",
+			"Start":"14:40",
+			"End":"14:55",
+			"Day":"Sunday"
+		},
+		{
+			"Title":"OpenBazaar",
+			"Subtitle":"Decentralized markets for online trade",
+			"Speakers":"Dionysis Zindros, Sam Patterson",
+			"Start":"15:00",
+			"End":"15:15",
+			"Day":"Sunday"
+		},
+		{
+			"Title":"Open source is not only for geeks and idealists in the (danish) health sector",
+			"Subtitle":"A presentation of the OpenTele project and other health related projects by the 4S organisation",
+			"Speakers":"Mike Kristoffersen",
+			"Start":"15:20",
+			"End":"15:35",
+			"Day":"Sunday"
+		},
+		{
+			"Title":"Free and open-source software for medical imaging",
+			"Subtitle":"Bringing technological independence to hospitals",
+			"Speakers":"Sébastien Jodogne",
+			"Start":"15:40",
+			"End":"15:55",
+			"Day":"Sunday"
+		},
+		{
+			"Title":"Leihs, the leading free equipment booking system",
+			"Subtitle":"It took us eight years to get it right. What we learned about being a FOSS project.",
+			"Speakers":"Ramón Cahenzli",
+			"Start":"16:00",
+			"End":"16:15",
+			"Day":"Sunday"
+		},
+		{
+			"Title":"Data, data and data about your favourite community",
+			"Subtitle":"",
+			"Speakers":"Daniel Izquierdo",
+			"Start":"16:20",
+			"End":"16:35",
+			"Day":"Sunday"
+		},
+		{
+			"Title":"Open source home automation",
+			"Subtitle":"by OpenMotics",
+			"Speakers":"Frederick Ryckbosch",
+			"Start":"16:40",
+			"End":"16:55",
+			"Day":"Sunday"
+		},
+		{
+			"Title":"Open source Kodi mediacenter (XBMC) past, present and future",
+			"Subtitle":"",
+			"Speakers":"Martijn Kaijser",
+			"Start":"17:00",
+			"End":"17:15",
+			"Day":"Sunday"
+		}
+	]
+}
