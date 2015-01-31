@@ -4,7 +4,7 @@ Assets for my FOSDEM 2015 Lightning Talk "[A Whirlwind Introduction to OpenUI5](
 ## What This Is
 
 I built up the [talks.html](talks.html) file during the talk,
-using [some custom Atom snippets](https://github.com/qmacro/ui5-snippets/blob/fosdem-2015/snippets/fosdem-2015.cson). In the time I had for the talk, I only scraped the surface of [OpenUI5](https://github.com/SAP/openui5/) and showed these features:
+using [some custom Atom snippets](https://github.com/qmacro/ui5-snippets/blob/fosdem-2015/snippets/fosdem-2015.cson). In the time I had for the talk, I only scratched the surface of [OpenUI5](https://github.com/SAP/openui5/) and showed these features:
 
 - the OpenUI5 bootstrap
 - Model-View-Controller support
